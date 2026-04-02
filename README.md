@@ -1,4 +1,4 @@
-# 🛡️ SIEM Detection Lab
+# SIEM Detection Lab
 
 **Tools:** Splunk Enterprise · Ubuntu Server 24.04 LTS · VirtualBox · Windows PowerShell  
 **Skills Demonstrated:** Log ingestion · Attack simulation · SPL querying · Dashboard visualization · Network configuration
@@ -7,11 +7,11 @@
 
 ## Overview
 
-A home lab SIEM (Security Information and Event Management) environment built to simulate real-world attack scenarios and practice threat detection. Splunk Enterprise runs on a Windows host and ingests authentication logs forwarded from an Ubuntu Server VM via the Splunk Universal Forwarder. The lab simulates brute force SSH attacks, successful logins, and privilege escalation — then visualizes the results on a custom Splunk dashboard.
+A home lab Security Information and Event Management environment built to simulate real life attack scenarios and practice threat detection. Splunk runs on a Windows host and ingests authentication logs forwarded from an Ubuntu Server VM via the Splunk Universal Forwarder. The lab simulates brute force SSH attacks, successful logins, and privilege escalation. Then visualizes the results on a custom Splunk dashboard.
 
 ---
 
-## Architecture
+## Structure
 
 ```
 Windows Desktop (Host)
